@@ -1,0 +1,89 @@
+<div class="services-section" id="services-section">
+			<div class="services">
+				<div>
+					<h3 class="hire-title">My Services</h3>
+				</div>
+				
+				<div class="container-section">
+					<div class="skill-tree">
+						<div>
+							<h2>front-end</h2>
+							<p>On the contrary, a section of the mechanism provides a strict control
+							over The Functionality of Large-Scale Scale </p>
+						</div>
+						<div class="skills">
+							<ul>
+								<li>html</li>
+								<li>javascript</li>
+								<li>css</li>
+								<li>react</li>
+								<li>tailwind</li>
+								<li>api</li>
+							</ul>
+						</div>
+					</div>
+					<div class="skill-tree">
+						<div>
+							<h2>Back-End</h2>
+							<p>On the contrary, a section of the mechanism provides a strict control
+							over The Functionality of Large-Scale Scale </p>
+						</div>
+						<div class="skills">
+							<ul>
+								<li>database</li>
+								<li>java</li>
+								<li>git</li>
+								<li>nodejs</li>
+								<li>python</li>
+								<li>microsoft sql server</li>
+							</ul>
+						</div>
+					</div>
+					<div class="skill-tree">
+						<div>
+							<h2>Design</h2>
+							<p>On the contrary, a section of the mechanism provides a strict control
+							over The Functionality of Large-Scale Scale </p>
+						</div>
+						<div class="skills">
+							<ul>
+								<li>adobe xd</li>
+								<li>figma</li>
+								<li>lightroom</li>
+								<li>office</li>
+							</ul>
+						</div>
+					</div>
+					<div class="skill-tree">
+						<div>
+							<h2>App Development</h2>
+							<p>On the contrary, a section of the mechanism provides a strict control
+							over The Functionality of Large-Scale Scale </p>
+						</div>
+						<div class="skills">
+							<ul>
+								<li>android</li>
+								<li>windows development</li>
+								<li>xamarin</li>
+							</ul>
+						</div>
+					</div>
+					<div class="skill-tree">
+						<div>
+							<h2>Commercial</h2>
+							<p>On the contrary, a section of the mechanism provides a strict control
+							over The Functionality of Large-Scale Scale </p>
+						</div>
+						<div class="skills">
+							<ul>
+								<li>web mastery</li>
+								<li>documentation</li>
+								<li>presentation</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<!-- <p class="intro">Hi, I'm is Khayelihle. I am an aspiring global software developer. I specialize in front-end development and ui design.</p>  -->
+			</div>
+		</div>
