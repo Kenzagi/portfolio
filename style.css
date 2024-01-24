@@ -77,7 +77,6 @@ html{
 	outline: none;
 	width: 100px;
 	height: 50px;
-	color: #021212;
 	border-radius: 25px;
 	border: 2px solid #E8D35E;
 	font-size: 16px;
@@ -88,10 +87,16 @@ html{
 	transition: .4s;
 }
 
+.download-btn a{
+	text-decoration: none;
+	color: #021212;
+	transition: 
+}
+
 .download-btn:hover{
-	background: #021212;
+	background: #FFFAFF;
 	border: 1px solid #FFFAFF;
-	color: #FFFAFF;
+	color: #021212;
 }
 
 h1 {
@@ -118,7 +123,7 @@ h1 {
 	color: #E8D35E;
 	font-size: 35px;
 	font-family: 'Poppins';
-	font-weight: 600;
+	font-weight: 500;
 }
 
 #header {
@@ -341,7 +346,7 @@ nav ul li a{
 	border-radius: 10px;
 	align-items: center;
 	justify-content: space-evenly;
-	background: #E2FCEF;	;
+	background: #FFFAFF;	;
 	backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 	overflow: hidden;
@@ -568,6 +573,10 @@ nav ul li a{
 	height: 40px;
 }
 
+.cert ul li a{
+	text-decoration: none;
+}
+
 .education{
 	position: relative;
 	height: 100%;
@@ -736,7 +745,9 @@ img3{
 }
 
 .hire-title{
-	font-size: 50px;
+	padding: 10px 0;
+	font-size: 40px;
+	font-weight: normal;
 	color: #E8D35E;
 }
 
