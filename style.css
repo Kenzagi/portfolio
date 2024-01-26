@@ -295,13 +295,13 @@ nav ul li a{
 	justify-content: center;
 	bottom: 0;
 	border-radius: 18px;
+	background-size: cover;
     /* border:1px solid rgba(255, 255, 255, .3); */
 
 }
 
 .media-container img{
 	width: 100%;
-	
 }
 
 .section1{
@@ -316,12 +316,12 @@ nav ul li a{
 }
 
 .picture {
-	max-width: 380px;
+	max-width: auto;
 	height: 580px;
 	position: relative;
 	border-radius: 15px;
 	background-image: no-repeat;
-	background-size: cover;
+	
 }
 
 .rect-sect{
