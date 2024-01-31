@@ -29,12 +29,11 @@ html{
 	background: #E8D35E;
 	outline: none;
 	width: auto;
-	height: 50px;
+	height: 35px;
 	border-radius: 25px;
-	border: 2px solid #E8D35E;
 	font-size: 16px;
 	font-weight: 400;
-	padding: 0 12px;
+	padding: 8px 12px;
 	bottom: 40px;
 	right: 50px;
 	z-index: 999;
@@ -48,7 +47,6 @@ html{
 
 .download-btn:hover{
 	background: #FFFAFF;
-	border: 1px solid #FFFAFF;
 	color: #021212;
 }
 
