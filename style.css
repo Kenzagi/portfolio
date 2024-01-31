@@ -34,6 +34,7 @@ html{
 	border: 2px solid #E8D35E;
 	font-size: 16px;
 	font-weight: 400;
+	padding: 0 12px;
 	bottom: 40px;
 	right: 50px;
 	z-index: 999;
@@ -43,7 +44,6 @@ html{
 .download-btn a{
 	text-decoration: none;
 	color: #021212;
-	transition: 
 }
 
 .download-btn:hover{
