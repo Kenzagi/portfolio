@@ -29,10 +29,11 @@ html{
 	background: #E8D35E;
 	outline: none;
 	width: auto;
-	height: 35px;
+	height: 45px;
 	border-radius: 25px;
+	outline: none;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 500;
 	padding: 8px 12px;
 	bottom: 40px;
 	right: 50px;
@@ -48,6 +49,7 @@ html{
 .download-btn:hover{
 	background: #FFFAFF;
 	color: #021212;
+	outline: none;
 }
 
 h1 {
