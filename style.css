@@ -6,7 +6,7 @@
 }
 
 body{
-	background: #021212;
+	background: #151414;
 	overflow-x: hidden;
 }
 
@@ -26,7 +26,7 @@ html{
 
 .download-btn{
 	position: fixed;
-	background: #E8D35E;
+	background: #FFFAFF;
 	outline: none;
 	width: auto;
 	height: 45px;
@@ -44,12 +44,23 @@ html{
 
 .download-btn a{
 	text-decoration: none;
-	color: #021212;
+	color: #151414;
+	transition: .4s;
+}
+
+.download-btn a:hover{
+	text-decoration: none;
+	color: #FFFAFF;
+}
+
+.download-btn{
+	text-decoration: none;
+	color: #FFFAFF;
 }
 
 .download-btn:hover{
-	background: #FFFAFF;
-	color: #021212;
+	background: #151414;
+	color: #FFFAFF;
 	outline: none;
 	border: none;
 }
@@ -75,7 +86,7 @@ h1 {
 }
 
 .section-title{
-	color: #E8D35E;
+	color: #151414;
 	font-size: 35px;
 	font-family: 'Poppins';
 	font-weight: 500;
@@ -115,7 +126,7 @@ h1 {
 }
 
 #logo span{
-   color: #E8D35E;
+   color: #151414;
 }
 
 nav ul li{
@@ -182,7 +193,7 @@ nav ul li a{
 }
 
 .home-section{
-	background: #07394B;
+	background: #707070;
 	width: 100%;
 	height: 700px;
 	margin-top: 80px;
@@ -215,7 +226,7 @@ nav ul li a{
   font-size: 18px;
   font-weight: 400;
   opacity: .8;
-	color: #E8D35E;
+	color: #151414;
 }
 
 .intro {
@@ -344,7 +355,7 @@ nav ul li a{
 }
 
 .orange{
-	background: #021212;
+	background: #707070;
 }
 
 .contact-me{
@@ -353,7 +364,7 @@ nav ul li a{
 	align-items: center;
 	justify-content: space-evenly;
 	margin: auto 0;
-	background: #07394B;
+	background: #707070;
 	width: 300px;
 	height: 250px;
 	right: 200px;
@@ -444,7 +455,7 @@ nav ul li a{
 }
 
 .about{
-	background: #07394B;
+	background: #707070;
 	width: 100%;
 	height: auto;
 	margin-top: 80px;
@@ -471,7 +482,7 @@ nav ul li a{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
 	border-radius: 15px;
 	margin: auto 0;
-	color: #021212;
+	color: #707070;
 	padding: 5px 15px;
 	flex-wrap: wrap;
 	text-transform: lowercase;
@@ -514,7 +525,7 @@ nav ul li a{
 
 .cert ul li p span{
 	text-transform: none;
-	color: #E8D35E;
+	color: #151414;
 	opacity: 0.6;
 }
 
@@ -582,7 +593,7 @@ nav ul li a{
 }
 
 .projects{
-	background: #07394B;
+	background: #707070;
 	width: 100%;
 	height: 700px;
 	margin-top: 80px;
@@ -602,7 +613,7 @@ nav ul li a{
 }
 
 /* .projects a{
-	color: #021212;
+	color: #707070;
 	font-family: 'Poppins';
 	font-size: 16px;
 	font-weight: 400;
@@ -682,7 +693,7 @@ img3{
 }
 
 .contact{
-	background: rgba(255, 250, 255, 0.1);
+	background: #707070;
 	width: 100%;
 	height: 700px;
 	margin-top: 80px;
@@ -703,7 +714,7 @@ img3{
 	padding: 10px 0;
 	font-size: 40px;
 	font-weight: normal;
-	color: #E8D35E;
+	color: #151414;
 }
 
 .links ul{
@@ -716,7 +727,7 @@ img3{
 	
 }
 
-.links ul li{
+.links ul li a{
 	background: #transparent;
 	text-decoration: none;
 	font-size: 14px;
@@ -728,9 +739,9 @@ img3{
 	transition: .5s;
 }
 
-.links ul li:hover{
+.links ul li a:hover{
 	background: #FFFAFF;
-	color: #07394B;
+	color: #707070;
 	cursor: pointer;
 }
 
@@ -750,7 +761,7 @@ img3{
 }
 
 form p{
-	color: #E8D35E;
+	color: #151414;
 	opacity: 0.7;
 }
 
@@ -763,7 +774,7 @@ form input{
 	border: none;
 	background: #FFFAFF;
 	font-size: 14px;
-	color: #021212;
+	color: #151414;
 	transition: .4s;
 }
 
@@ -789,12 +800,12 @@ form textarea{
 	outline: none;
 	border: none;
 	background: #FFFAFF;
-	color: #021212;
+	color: #151414;
 	transition: 0.4s;
 }
 
 /* form textarea:hover{ */
-	/* background: #021212; */
+	/* background: #707070; */
 	/* border: 1px solid #FFFAFF; */
 	/* color: $FFFAFF; */
 /* } */
@@ -818,7 +829,7 @@ form .btn{
 
 form .btn:hover{
 	background: #FFFAFF;
-	color: #021212;
+	color: #707070;
 	cursor: pointer;
 }
 
@@ -847,7 +858,7 @@ footer{
 }
 
 .services{
-	background: #07394B;
+	background: #707070;
 	width: 100%;
 	height: 100vh;
 	margin-top: 80px;
@@ -904,11 +915,12 @@ position: relative;
 }
 
 .skill-tree:hover{	
-	border: 1px solid rgba(232, 211, 94, 0.6);
+	border: 1px solid rgba(255, 250, 255, .6);
 }	
 
 .skill-tree h2{
-	color: #E8D35E;
+	color: #151414;
+	opacity: .9;
 	text-transform: capitalize;
 	font-weight: 500;
 }
@@ -955,7 +967,7 @@ position: relative;
 
 .details a{
 	position: relative;
-	color: #021212;
+	color: #707070;
 	font-family: 'Poppins';
 	font-size: 16px;
 	font-weight: 400;
