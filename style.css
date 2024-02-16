@@ -26,7 +26,7 @@ html{
 
 .download-btn{
 	position: fixed;
-	background: #F5F5F5;
+	background: #1F4736;
 	outline: none;
 	width: auto;
 	height: 45px;
@@ -44,7 +44,7 @@ html{
 
 .download-btn a{
 	text-decoration: none;
-	color: #151414;
+	color: #F5F5F5;
 	transition: .4s;
 }
 
@@ -118,11 +118,13 @@ h1 {
   margin: 0 25px;
 }
 
-#logo {
-  font-family: 'Poppins';
-  font-size: 40px;
-  font-weight: 600;
-  color: #F5F5F5;
+/* #logo { */
+	/* width: 50px; */
+	/* height: 50px; */
+/* } */
+
+.logo-icon{
+	width: 50px;
 }
 
 #logo span{
@@ -137,6 +139,7 @@ nav ul li{
 
 nav ul li a{
   color: #F5F5F5;
+  opacity: .4;
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
@@ -147,9 +150,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: #151414;
+  color: #F5F5F5;
+  opacity: 1;
   text-decoration: none;
-  background: #F5F5F5;
 }
 
 
@@ -282,7 +285,8 @@ nav ul li a:hover{
 	height: 280px;
 	border-radius: 10px;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
+	gap: 20px;
 	background: #F5F5F5;	;
 	backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -298,13 +302,13 @@ nav ul li a:hover{
 }
 
 .rect .icon:hover{
-	width: 70px;
-	height: 70px;
+	width: 65px;
+	height: 65px;
 }
 
 .orange video{
-	width: 450px;
-	height: 450px;
+	width: 430px;
+	height: 430px;
 }
 
 .orange img{
@@ -445,7 +449,7 @@ nav ul li a:hover{
 
 .certifications{
 	width: fit-content;
-	background: #151414;
+	background: #1F4736;
 	height: auto;
 	min-height: 550px;
     border-radius: 20px;
@@ -604,7 +608,7 @@ nav ul li a:hover{
 }
 
 .stack{
-	opacity: .5;
+	opacity: .8;
 	
 }
 
@@ -612,7 +616,6 @@ nav ul li a:hover{
 	display: flex;
 	align-items: end;
 	justify-content: center;
-	
 	gap: 15px;
 }
 
@@ -620,9 +623,9 @@ nav ul li a:hover{
 	list-style: none;
 	text-decoration: none;
 	font-size: 12px;
-	color: #151414;
+	color: #337357;
 	padding: 5px 15px;
-	border: 1px solid #151414;
+	border: 1px solid #337357;
 	border-radius: 25px;
 }
 
@@ -707,7 +710,7 @@ img3{
 	margin: 10px 0;
 	border: 1px solid #151414;
 	border-radius: 25px;
-	transition: .5s;
+	transition: .3s;
 }
 
 .links ul li a:hover{
@@ -745,7 +748,7 @@ form input{
 	border: none;
 	background: #151414;
 	font-size: 14px;
-	color: #151414;
+	color: #E2FCEF;
 	transition: .4s;
 }
 
@@ -771,7 +774,7 @@ form textarea{
 	outline: none;
 	border: none;
 	background: #151414;
-	color: #151414;
+	color: #E2FCEF;
 	transition: 0.4s;
 }
 
@@ -868,7 +871,7 @@ position: relative;
 }
 
 .skill-tree{
-	background: #151414;
+	background: #1F4736;
 	max-width: 320px;
 	height: 370px;
 	border-radius: 12px;
